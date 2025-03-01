@@ -16,7 +16,7 @@ export function Categories({ categories }: CategoriesProps) {
         <div key={category.id}>
           <Category functional={category.id !== 'favorites'} {...category} />
 
-          {index === 3 && <Donate />}
+          {/* {index === 3 && <Donate />} */}
         </div>
       ))}
     </AnimatePresence>
